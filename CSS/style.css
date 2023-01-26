@@ -40,6 +40,10 @@ section {
   float: right;
 
 }
+.formContainer .btn-form:hover{
+  background-color: #60d8d8;
+  transform: scale(1.04);
+}
 
 h2 {
   font-size: 16px;
@@ -60,8 +64,9 @@ select {
 
 input[type="submit"] {
   color: #ffffff;
-  background-color: #48c5ce;
+  background-color: #56b8be;
   font-weight: bold;
+  transition: transform .2s ;
 }
 
 /* estilo de select proprio para não haver alteração entre os navegadores */
